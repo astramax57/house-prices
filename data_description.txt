@@ -1,15 +1,3 @@
-Опыт показывает, что в первую очередь необходимо разобраться с данными. Осмыслить их
-
-Числовые
-Категориальные 
-понять:
-- что означают категории
-- могут ти они быть отранжированы
--
-
-сделать:
-- закодировать нечисловые значения
-
 MSSubClass: Identifies the type of dwelling involved in the sale.	
             Определяет тип жилья, участвующего в продаже
 
@@ -128,12 +116,12 @@ LotShape: General shape of property
        неправильная
        
 LandContour: Flatness of the property
-характеристики кривизны участка
+характеристики уровня участка (по отношению к окружающим учаскам)
        Lvl	Near Flat/Level	
        плоский
        
        Bnk	Banked - Quick and significant rise from street grade to building
-       быстро и значительно возрастает от улицы к зданию
+       быстро и значительно возрастает от улицы к зданию (вглубину)
 
        HLS	Hillside - Significant slope from side to side
        значительно перепад по фронту (между боковыми сторонами)
@@ -156,20 +144,35 @@ Utilities: Type of utilities available
        только электричество
 	
 LotConfig: Lot configuration
-
+характеристика расположения участка
        Inside	Inside lot
+       внутренний
+
        Corner	Corner lot
+       угловой
+
        CulDSac	Cul-de-sac
+       тупиковый (или в тупике)
+
        FR2	Frontage on 2 sides of property
+       две стороны объекта - фасад
+
        FR3	Frontage on 3 sides of property
+       две стороны объекта - фасад
 	
 LandSlope: Slope of property
-		
+характеристика уклона		
        Gtl	Gentle slope
+       слабый уклон
+
        Mod	Moderate Slope	
+       умеренный уклон
+
        Sev	Severe Slope
+       серьезный уклон
 	
 Neighborhood: Physical locations within Ames city limits
+район города Ames 
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
@@ -198,19 +201,40 @@ Neighborhood: Physical locations within Ames city limits
        Veenker	Veenker
 			
 Condition1: Proximity to various conditions
-	
+близость к различным объектам (слово "условие" не очень подходит по смыслу)
+иерархия дорог в США https://en.wikipedia.org/wiki/Hierarchy_of_roads
+про названия дорог https://en.wikipedia.org/wiki/Frontage_road
+
        Artery	Adjacent to arterial street
+       примыкает к магистрали
+
        Feedr	Adjacent to feeder street	
+       примыкает к "дублеру"
+
        Norm	Normal	
+       обычное расположение
+
        RRNn	Within 200' of North-South Railroad
+       вблизи ж/д 
+
        RRAn	Adjacent to North-South Railroad
+       примыкает к ж/д  
+
        PosN	Near positive off-site feature--park, greenbelt, etc.
+       благоприятный объект поблизости
+
        PosA	Adjacent to postive off-site feature
+       примыкает к благоприятному объекту
+
        RRNe	Within 200' of East-West Railroad
+       вблизи ж/д 
+
        RRAe	Adjacent to East-West Railroad
+       примыкает к ж/д 
 	
 Condition2: Proximity to various conditions (if more than one is present)
-		
+аналогично Condition1
+
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
        Norm	Normal	
