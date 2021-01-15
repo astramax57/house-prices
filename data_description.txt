@@ -64,51 +64,96 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
               дома, передаланные под 2 семьи, все года постройки
 
 MSZoning: Identifies the general zoning classification of the sale.
+Описания зон
+https://library.municode.com/ks/clearwater/codes/code_of_ordinances
+https://www.harrisburgnc.org/272/Zoning-101
 		
        A	Agriculture
+       склады, хоз постройки
+
        C	Commercial
+       офисы
+       
        FV	Floating Village Residential
+       дома на сваях, плавучие дома
+
        I	Industrial
+       промышленные здания
+
        RH	Residential High Density
+       это многоэтажки до 10 этажей
+
        RL	Residential Low Density
        RP	Residential Low Density Park 
+       это частная застройка
+
        RM	Residential Medium Density
+       это таунхаусы
+       https://en.wikipedia.org/wiki/Medium-density_housing
+       
 	
 LotFrontage: Linear feet of street connected to property
+протяженность "фасада", "красной линии"
 
 LotArea: Lot size in square feet
+площадь
 
 Street: Type of road access to property
+покрытие дороги
 
        Grvl	Gravel	
+       грунтовка 
+
        Pave	Paved
+       с твердым покрытием
        	
 Alley: Type of alley access to property
-
+покрытие тротуара
        Grvl	Gravel
        Pave	Paved
        NA 	No alley access
 		
 LotShape: General shape of property
-
+характеристики формы участка
        Reg	Regular	
+       правильная
+
        IR1	Slightly irregular
+       немного неправильная
+
        IR2	Moderately Irregular
+       умеренно неправильная
+
        IR3	Irregular
+       неправильная
        
 LandContour: Flatness of the property
-
+характеристики кривизны участка
        Lvl	Near Flat/Level	
+       плоский
+       
        Bnk	Banked - Quick and significant rise from street grade to building
+       быстро и значительно возрастает от улицы к зданию
+
        HLS	Hillside - Significant slope from side to side
+       значительно перепад по фронту (между боковыми сторонами)
+
        Low	Depression
+       низина
 		
 Utilities: Type of utilities available
-		
+подключенные коммуникации		
        AllPub	All public Utilities (E,G,W,& S)	
+       все коммуникации
+
        NoSewr	Electricity, Gas, and Water (Septic Tank)
+       все, кроме центральной канализации (выгребная яма или септик)
+
        NoSeWa	Electricity and Gas Only
+       только электричество и газ
+
        ELO	Electricity only	
+       только электричество
 	
 LotConfig: Lot configuration
 
