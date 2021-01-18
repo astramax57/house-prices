@@ -452,17 +452,29 @@ Exterior2nd: Exterior covering on house (if more than one material)
        WdShing	Wood Shingles
 	
 MasVnrType: Masonry veneer type
+тип каменной кладки
 
        BrkCmn	Brick Common
+       кирпич рядовой
+
        BrkFace	Brick Face
+       кирпич облицовочный
+
        CBlock	Cinder Block
+       шлакоблок
+
        None	None
+       кладка отсутствует
+
        Stone	Stone
+       каменная
 	
 MasVnrArea: Masonry veneer area in square feet
+площадь каменной кладки
 
 ExterQual: Evaluates the quality of the material on the exterior 
-		
+оценка качества материалов внешней отделки
+
        Ex	Excellent
        Gd	Good
        TA	Average/Typical
@@ -470,6 +482,7 @@ ExterQual: Evaluates the quality of the material on the exterior
        Po	Poor
 		
 ExterCond: Evaluates the present condition of the material on the exterior
+оценка состояни материалов внешней отделки
 		
        Ex	Excellent
        Gd	Good
@@ -478,15 +491,28 @@ ExterCond: Evaluates the present condition of the material on the exterior
        Po	Poor
 		
 Foundation: Type of foundation
-		
+тип фундамента
+
        BrkTil	Brick & Tile
+       кирпич 
+
        CBlock	Cinder Block
+       шлакоблок
+
        PConc	Poured Contrete	
+       бетон
+
        Slab	Slab
+       плита
+
        Stone	Stone
+       камень
+
        Wood	Wood
-		
+       дерево
+
 BsmtQual: Evaluates the height of the basement
+оценка высоты цокольного этажа (речь о высоте потолков)
 
        Ex	Excellent (100+ inches)	
        Gd	Good (90-99 inches)
@@ -496,6 +522,7 @@ BsmtQual: Evaluates the height of the basement
        NA	No Basement
 		
 BsmtCond: Evaluates the general condition of the basement
+оценка состояния цокольного этажа
 
        Ex	Excellent
        Gd	Good
@@ -505,26 +532,52 @@ BsmtCond: Evaluates the general condition of the basement
        NA	No Basement
 	
 BsmtExposure: Refers to walkout or garden level walls
+примыкание фундамента к подпорным стенам сада
 
        Gd	Good Exposure
+       значительное примыкание
+
        Av	Average Exposure (split levels or foyers typically score average or above)	
+       примыкание средней степени 
+
        Mn	Mimimum Exposure
+       незначительное примыкание
+
        No	No Exposure
+       примыкания нет
+
        NA	No Basement
+       фундамента нет
 	
 BsmtFinType1: Rating of basement finished area
+Степень готовности отделки цокольного этажа
 
        GLQ	Good Living Quarters
+       жилое помещение с хорошей отделкой
+
        ALQ	Average Living Quarters
+       жилое помещение с отделкой 
+
        BLQ	Below Average Living Quarters	
+       жилое помещение с простой отделкой 
+
        Rec	Average Rec Room
+       помещение для отдыха с отделкой (кинозал, бильярд, спортзал) 
+
        LwQ	Low Quality
+       помещение с черновой отделкой
+
        Unf	Unfinshed
+       помещение без отделки
+
        NA	No Basement
+       нет цокольного этажа
 		
 BsmtFinSF1: Type 1 finished square feet
+Площадь помещений цокольного этажа со степенью готовности BsmtFinType1
 
 BsmtFinType2: Rating of basement finished area (if multiple types)
+Степень готовности отделки цокольного этажа
 
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
@@ -535,10 +588,13 @@ BsmtFinType2: Rating of basement finished area (if multiple types)
        NA	No Basement
 
 BsmtFinSF2: Type 2 finished square feet
+Площадь помещений цокольного этажа со степенью готовности BsmtFinType2
 
 BsmtUnfSF: Unfinished square feet of basement area
+Площадь помещений цокольного этажа без отделки
 
 TotalBsmtSF: Total square feet of basement area
+Общая площадь помещений цокольного этажа
 
 Heating: Type of heating
 		
