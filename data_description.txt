@@ -806,25 +806,38 @@ GarageCond: Garage condition
        NA	No Garage
 		
 PavedDrive: Paved driveway
+Подъездной путь
 
        Y	Paved 
+       асфальтированный
+
        P	Partial Pavement
+       частично асфальтированный
+
        N	Dirt/Gravel
+       грунтовый или гравийный
 		
 WoodDeckSF: Wood deck area in square feet
+Площадь террасы
 
 OpenPorchSF: Open porch area in square feet
+Площадь открытой веранды
 
 EnclosedPorch: Enclosed porch area in square feet
+Площадь закрытой веранды
 
 3SsnPorch: Three season porch area in square feet
+Площадь веранды, пристроенной к дому
 
 ScreenPorch: Screen porch area in square feet
+Площадь застекленной веранды
 
 PoolArea: Pool area in square feet
+Площадь бассейна
 
 PoolQC: Pool quality
-		
+Качество бассейна
+
        Ex	Excellent
        Gd	Good
        TA	Average/Typical
@@ -832,46 +845,106 @@ PoolQC: Pool quality
        NA	No Pool
 		
 Fence: Fence quality
-		
+Качество забора
+
        GdPrv	Good Privacy
+       обеспечивает хорошую приватность (конфиденциальность)
+
        MnPrv	Minimum Privacy
+       обеспечивает минимальную приватность (конфиденциальность)
+
        GdWo	Good Wood
+       деревянный, качественный
+       
        MnWw	Minimum Wood/Wire
+       деревянный или сетка, минимальный
+
        NA	No Fence
+       забор отсутствует
 	
 MiscFeature: Miscellaneous feature not covered in other categories
-		
+Дополнительные удобства, не представленные в других категориях
+
        Elev	Elevator
+       лифт
+
        Gar2	2nd Garage (if not described in garage section)
+       второй гараж
+
        Othr	Other
+       другое
+
        Shed	Shed (over 100 SF)
+       сарай (площадью долее 100 кв. футов)
+
        TenC	Tennis Court
+       теннисный корт
+
        NA	None
-		
+       отсутствуют
+       		
 MiscVal: $Value of miscellaneous feature
+Стоимость дополнительных удобств
 
 MoSold: Month Sold (MM)
+Месяц продажи (1-12)
 
 YrSold: Year Sold (YYYY)
+Год продажи (2006-2010)
 
 SaleType: Type of sale
-		
+Тип сделки
+https://www.investopedia.com/terms/w/warranty-deed.asp
+https://www.investopedia.com/terms/d/down_payment.asp
+
        WD 	Warranty Deed - Conventional
+       обычные гарантийные обязательства
+
        CWD	Warranty Deed - Cash
+       покупка за наличные
+
        VWD	Warranty Deed - VA Loan
+       покупка ветераном по ипотеке
+
        New	Home just constructed and sold
+       новостройка, продается впервые
+
        COD	Court Officer Deed/Estate
+       покупка у судебных приставов (возможно конфискованное имущество)
+
        Con	Contract 15% Down payment regular terms
+       первоначальный взнос не более 15%, обычные условия
+
        ConLw	Contract Low Down payment and low interest
+       небольшой первоначальный взнос, небольшие проценты по кредиту
+
        ConLI	Contract Low Interest
+       небольшие проценты по кредиту
+
        ConLD	Contract Low Down
+       небольшой первоначальный взнос
+
        Oth	Other
+       иные условия
 		
 SaleCondition: Condition of sale
+Условия продажи
 
        Normal	Normal Sale
+       обычная продажа
+
        Abnorml	Abnormal Sale -  trade, foreclosure, short sale
+       продажа с дополнительными условиями
+
        AdjLand	Adjoining Land Purchase
+       покупка прилегающего земельного участка
+
        Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       два связанных объекта недвижимости, продаваемые по разным договорам
+       обычно - квартира с гаражом или машиноместом
+
        Family	Sale between family members
+       купля-продажа между членами одной семьи
+
        Partial	Home was not completed when last assessed (associated with New Homes)
+       продажа недостроенного жилья
