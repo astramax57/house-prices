@@ -638,35 +638,56 @@ CentralAir: Central air conditioning
        Y	Yes
 		
 Electrical: Electrical system
+Тип подключения к электросети и тип проводки в доме
+https://www.thespruce.com/what-does-romex-or-nm-mean-1821530
 
        SBrkr	Standard Circuit Breakers & Romex
+       стандартная система защиты и проводка по стандарту Romex
+
        FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
+       вводной автомат более чем на 60А и проводка по стандарту Romex
+
        FuseF	60 AMP Fuse Box and mostly Romex wiring (Fair)
+       вводной автомат на 60А и проводка в основном по стандарту Romex
+
        FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
+       вводной автомат на 60А и проводка в основном на изоляторах (внешняя)
+
        Mix	Mixed
+       сочетание различных типов
 		
 1stFlrSF: First Floor square feet
+Площадь первого этажа
  
 2ndFlrSF: Second floor square feet
+Площадь второго этажа
 
 LowQualFinSF: Low quality finished square feet (all floors)
+Площадь помещений без чистовой отделки (все этажи)
 
 GrLivArea: Above grade (ground) living area square feet
+Жилая площадь выше уровня земли
 
 BsmtFullBath: Basement full bathrooms
+Количество ванных комнат в цокольном этаже
 
 BsmtHalfBath: Basement half bathrooms
+Количество туалетов в цокольном этаже
 
 FullBath: Full bathrooms above grade
+Количество ванных комнат над уровнем земли
 
 HalfBath: Half baths above grade
+Количество туалетов над уровнем земли
 
 Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+Количество спален над уровнем земли (без учета спален в цокольном этаже)
 
 Kitchen: Kitchens above grade
+Количество кухонь над уровнем земли
 
 KitchenQual: Kitchen quality
-
+Качество кухонь
        Ex	Excellent
        Gd	Good
        TA	Typical/Average
@@ -674,21 +695,40 @@ KitchenQual: Kitchen quality
        Po	Poor
        	
 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+Количество комнат над уровнем земли (без учета ванных комнат и туалетов)
 
 Functional: Home functionality (Assume typical unless deductions are warranted)
+Функциональность дома
 
        Typ	Typical Functionality
+       типовая
+
        Min1	Minor Deductions 1
+       небольшие недостатки
+
        Min2	Minor Deductions 2
+       небольшие недостатки
+
        Mod	Moderate Deductions
+       устранимые недостатки
+       
        Maj1	Major Deductions 1
+       значительные недостатки
+
        Maj2	Major Deductions 2
+       значительные недостатки
+
        Sev	Severely Damaged
+       серьезные недостатки
+
        Sal	Salvage only
+       аварийное состояние
 		
 Fireplaces: Number of fireplaces
+Количество каминов (очагов)
 
 FireplaceQu: Fireplace quality
+Качество каминов
 
        Ex	Excellent - Exceptional Masonry Fireplace
        Gd	Good - Masonry Fireplace in main level
@@ -698,29 +738,55 @@ FireplaceQu: Fireplace quality
        NA	No Fireplace
 		
 GarageType: Garage location
-		
+Расположение гаража
+
        2Types	More than one type of garage
+       более двух типов гаражей
+
        Attchd	Attached to home
+       пристроен к дому
+
        Basment	Basement Garage
+       в цокольном этаже
+
        BuiltIn	Built-In (Garage part of house - typically has room above garage)
+       встроен в дом
+
        CarPort	Car Port
+       навес
+
        Detchd	Detached from home
+       отдельно от дома 
+       
        NA	No Garage
+       гараж отсутствует
 		
 GarageYrBlt: Year garage was built
+Год постройки гаража
 		
 GarageFinish: Interior finish of the garage
+Внутренняя отделка гаража 
 
        Fin	Finished
+       завершена
+
        RFn	Rough Finished	
+       почти завершена
+
        Unf	Unfinished
+       не завершена
+
        NA	No Garage
+       гараж отсутствует
 		
 GarageCars: Size of garage in car capacity
+Количество машиномест в гараже
 
 GarageArea: Size of garage in square feet
+Площадь гаража
 
 GarageQual: Garage quality
+Качество гаража
 
        Ex	Excellent
        Gd	Good
@@ -730,6 +796,7 @@ GarageQual: Garage quality
        NA	No Garage
 		
 GarageCond: Garage condition
+Состояние гаража
 
        Ex	Excellent
        Gd	Good
