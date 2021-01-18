@@ -1,5 +1,5 @@
 MSSubClass: Identifies the type of dwelling involved in the sale.	
-            Определяет тип жилья, участвующего в продаже
+Определяет тип жилья, участвующего в продаже
 
         20	1-STORY 1946 & NEWER ALL STYLES
               одноэтажные, постройки 1946 и новее
@@ -52,6 +52,7 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
               дома, передаланные под 2 семьи, все года постройки
 
 MSZoning: Identifies the general zoning classification of the sale.
+Тип зоны, в которой расположен объект недвижимости
 Описания зон
 https://library.municode.com/ks/clearwater/codes/code_of_ordinances
 https://www.harrisburgnc.org/272/Zoning-101
@@ -81,13 +82,13 @@ https://www.harrisburgnc.org/272/Zoning-101
        
 	
 LotFrontage: Linear feet of street connected to property
-протяженность "фасада", "красной линии"
+Протяженность "фасада", "красной линии"
 
 LotArea: Lot size in square feet
-площадь
+Площадь
 
 Street: Type of road access to property
-покрытие дороги
+Покрытие дороги
 
        Grvl	Gravel	
        грунтовка 
@@ -96,13 +97,18 @@ Street: Type of road access to property
        с твердым покрытием
        	
 Alley: Type of alley access to property
-покрытие тротуара
+Покрытие тротуара
        Grvl	Gravel
+       грунтовка 
+
        Pave	Paved
+       с твердым покрытием
+       
        NA 	No alley access
+       нет тротуара
 		
 LotShape: General shape of property
-характеристики формы участка
+Характеристика формы участка
        Reg	Regular	
        правильная
 
@@ -116,12 +122,12 @@ LotShape: General shape of property
        неправильная
        
 LandContour: Flatness of the property
-характеристики уровня участка (по отношению к окружающим учаскам)
+Характеристика уровня участка (по отношению к окружающим участкам)
        Lvl	Near Flat/Level	
        плоский
        
        Bnk	Banked - Quick and significant rise from street grade to building
-       быстро и значительно возрастает от улицы к зданию (вглубину)
+       быстро и значительно возрастает от улицы к зданию (в глубину)
 
        HLS	Hillside - Significant slope from side to side
        значительно перепад по фронту (между боковыми сторонами)
@@ -130,7 +136,7 @@ LandContour: Flatness of the property
        низина
 		
 Utilities: Type of utilities available
-подключенные коммуникации		
+Подключенные коммуникации		
        AllPub	All public Utilities (E,G,W,& S)	
        все коммуникации
 
@@ -144,7 +150,7 @@ Utilities: Type of utilities available
        только электричество
 	
 LotConfig: Lot configuration
-характеристика расположения участка
+Характеристика расположения участка
        Inside	Inside lot
        внутренний
 
@@ -158,10 +164,10 @@ LotConfig: Lot configuration
        две стороны объекта - фасад
 
        FR3	Frontage on 3 sides of property
-       две стороны объекта - фасад
+       три стороны объекта - фасад
 	
 LandSlope: Slope of property
-характеристика уклона		
+Характеристика уклона		
        Gtl	Gentle slope
        слабый уклон
 
@@ -172,7 +178,7 @@ LandSlope: Slope of property
        серьезный уклон
 	
 Neighborhood: Physical locations within Ames city limits
-район города Ames 
+Район города Ames 
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
@@ -201,7 +207,7 @@ Neighborhood: Physical locations within Ames city limits
        Veenker	Veenker
 			
 Condition1: Proximity to various conditions
-близость к различным объектам (слово "условие" не очень подходит по смыслу)
+Близость к различным объектам
 иерархия дорог в США https://en.wikipedia.org/wiki/Hierarchy_of_roads
 про названия дорог https://en.wikipedia.org/wiki/Frontage_road
 
@@ -209,7 +215,7 @@ Condition1: Proximity to various conditions
        примыкает к магистрали
 
        Feedr	Adjacent to feeder street	
-       примыкает к "дублеру"
+       примыкает к "дублеру" магистрали
 
        Norm	Normal	
        обычное расположение
@@ -221,7 +227,7 @@ Condition1: Proximity to various conditions
        примыкает к ж/д  
 
        PosN	Near positive off-site feature--park, greenbelt, etc.
-       благоприятный объект поблизости
+       благоприятный объект поблизости (например, парк)
 
        PosA	Adjacent to postive off-site feature
        примыкает к благоприятному объекту
@@ -233,7 +239,7 @@ Condition1: Proximity to various conditions
        примыкает к ж/д 
 	
 Condition2: Proximity to various conditions (if more than one is present)
-аналогично Condition1
+Аналогично Condition1
 
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
@@ -257,7 +263,7 @@ https://www.redfin.com/resources/difference-between-building-types
        отдельно стоящий дом для двух семей, переделан из дома для одной семьи
 
        Duplx	Duplex
-       отдельностоящий дом для двух семей
+       отдельно стоящий дом для двух семей
 
        TwnhsE	Townhouse End Unit
        "угловая" квартира в таунхаусе. только одна стена, общая с соседями
@@ -293,7 +299,7 @@ HouseStyle: Style of dwelling
        дома, у которых пол помещений расположен на разных уровнях
 	
 OverallQual: Rates the overall material and finish of the house
-общая оценка используемых строительных и отделочных материалов (кодирование значений не требуется)
+Общая оценка используемых строительных и отделочных материалов 
 
        10	Very Excellent
        9	Excellent
@@ -307,7 +313,7 @@ OverallQual: Rates the overall material and finish of the house
        1	Very Poor
 	
 OverallCond: Rates the overall condition of the house
-общее состояние дома (кодирование значений не требуется)
+Общее состояние дома 
 
        10	Very Excellent
        9	Excellent
@@ -321,13 +327,13 @@ OverallCond: Rates the overall condition of the house
        1	Very Poor
 		
 YearBuilt: Original construction date
-год постройки
+Год постройки
 
 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
-год реконструкции (если не было, то совпадает с годом постройки)
+Год реконструкции (если не было, то совпадает с годом постройки)
 
 RoofStyle: Type of roof
-тип кровли
+Конструкция кровли
 https://www.decoraid.com/blog/roof-types
 
        Flat	Flat
@@ -349,7 +355,7 @@ https://www.decoraid.com/blog/roof-types
        односкатная
 		
 RoofMatl: Roof material
-материал кровли
+Материал кровли
 https://www.thespruce.com/basic-types-and-cost-of-roofing-materials-1822016
 https://www.customshingles.com/wood-shingles-vs-wood-shakes
 
@@ -378,7 +384,7 @@ https://www.customshingles.com/wood-shingles-vs-wood-shakes
        деревянная черепица
 		
 Exterior1st: Exterior covering on house
-внешняя отделка
+Внешняя отделка
 
        AsbShng	Asbestos Shingles     
        шифер
@@ -432,7 +438,7 @@ Exterior1st: Exterior covering on house
        деревянные панели
 	
 Exterior2nd: Exterior covering on house (if more than one material)
-аналогично Exterior1st
+Аналогично Exterior1st
        AsbShng	Asbestos Shingles
        AsphShn	Asphalt Shingles
        BrkComm	Brick Common
@@ -452,7 +458,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        WdShing	Wood Shingles
 	
 MasVnrType: Masonry veneer type
-тип каменной кладки
+Тип каменной кладки
 
        BrkCmn	Brick Common
        кирпич рядовой
@@ -470,10 +476,10 @@ MasVnrType: Masonry veneer type
        каменная
 	
 MasVnrArea: Masonry veneer area in square feet
-площадь каменной кладки
+Площадь каменной кладки
 
 ExterQual: Evaluates the quality of the material on the exterior 
-оценка качества материалов внешней отделки
+Оценка качества материалов внешней отделки
 
        Ex	Excellent
        Gd	Good
@@ -482,7 +488,7 @@ ExterQual: Evaluates the quality of the material on the exterior
        Po	Poor
 		
 ExterCond: Evaluates the present condition of the material on the exterior
-оценка состояни материалов внешней отделки
+Оценка состояни материалов внешней отделки
 		
        Ex	Excellent
        Gd	Good
@@ -491,7 +497,7 @@ ExterCond: Evaluates the present condition of the material on the exterior
        Po	Poor
 		
 Foundation: Type of foundation
-тип фундамента
+Тип фундамента
 
        BrkTil	Brick & Tile
        кирпич 
@@ -512,7 +518,7 @@ Foundation: Type of foundation
        дерево
 
 BsmtQual: Evaluates the height of the basement
-оценка высоты цокольного этажа (речь о высоте потолков)
+Оценка высоты цокольного этажа (речь о высоте потолков)
 
        Ex	Excellent (100+ inches)	
        Gd	Good (90-99 inches)
@@ -522,7 +528,7 @@ BsmtQual: Evaluates the height of the basement
        NA	No Basement
 		
 BsmtCond: Evaluates the general condition of the basement
-оценка состояния цокольного этажа
+Оценка состояния цокольного этажа
 
        Ex	Excellent
        Gd	Good
@@ -532,7 +538,7 @@ BsmtCond: Evaluates the general condition of the basement
        NA	No Basement
 	
 BsmtExposure: Refers to walkout or garden level walls
-примыкание фундамента к подпорным стенам сада
+Примыкание фундамента к подпорным стенам сада
 
        Gd	Good Exposure
        значительное примыкание
@@ -597,16 +603,29 @@ TotalBsmtSF: Total square feet of basement area
 Общая площадь помещений цокольного этажа
 
 Heating: Type of heating
-		
+Тип системы отопления
+
        Floor	Floor Furnace
+       печь, встроенная в пол
+       
        GasA	Gas forced warm air furnace
+       газовая печь, воздушная
+
        GasW	Gas hot water or steam heat
+       газовый котел, водяное или паровое отопление
+
        Grav	Gravity furnace	
+       гравитационная система отопления 
+       (вода циркулирует без насосов за счет разности температур)
+       
        OthW	Hot water or steam heat other than gas
+       не газовый котел, водяное или паровое отопление
+
        Wall	Wall furnace
+       печь, встроенная в стену
 		
 HeatingQC: Heating quality and condition
-
+Качество системы отопления и ее состояние
        Ex	Excellent
        Gd	Good
        TA	Average/Typical
@@ -614,7 +633,7 @@ HeatingQC: Heating quality and condition
        Po	Poor
 		
 CentralAir: Central air conditioning
-
+Наличие центральной системы кондиционирования воздуха
        N	No
        Y	Yes
 		
