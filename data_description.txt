@@ -246,25 +246,54 @@ Condition2: Proximity to various conditions (if more than one is present)
        RRAe	Adjacent to East-West Railroad
 	
 BldgType: Type of dwelling
-		
+Тип (вариант) проживания
+https://en.wikipedia.org/wiki/Single-family_detached_home
+https://www.redfin.com/resources/difference-between-building-types
+
        1Fam	Single-family Detached	
+       отдельно стоящий дом для одной семьи
+
        2FmCon	Two-family Conversion; originally built as one-family dwelling
+       отдельно стоящий дом для двух семей, переделан из дома для одной семьи
+
        Duplx	Duplex
+       отдельностоящий дом для двух семей
+
        TwnhsE	Townhouse End Unit
+       "угловая" квартира в таунхаусе. только одна стена, общая с соседями
+
        TwnhsI	Townhouse Inside Unit
+       не "угловая" квартира в таунхаусе. две стены, общие с соседями
 	
 HouseStyle: Style of dwelling
-	
+Тип дома и этап строительства
+
        1Story	One story
+       1-этажный
+
        1.5Fin	One and one-half story: 2nd level finished
+       1-этажный с мансардой, мансарда с чистовой отделкой
+
        1.5Unf	One and one-half story: 2nd level unfinished
+       1-этажный с мансардой, мансарда без чистовой отделки
+
        2Story	Two story
+       2-этажный
+
        2.5Fin	Two and one-half story: 2nd level finished
+       2-этажный с мансардой, мансарда с чистовой отделкой
+
        2.5Unf	Two and one-half story: 2nd level unfinished
+       2-этажный с мансардой, мансарда без чистовой отделки
+
        SFoyer	Split Foyer
+       дома, у которых фойе расположено на уровне земли, от него выше и ниже расположены уровни помещений
+
        SLvl	Split Level
+       дома, у которых пол помещений расположен на разных уровнях
 	
 OverallQual: Rates the overall material and finish of the house
+общая оценка используемых строительных и отделочных материалов (кодирование значений не требуется)
 
        10	Very Excellent
        9	Excellent
@@ -278,6 +307,7 @@ OverallQual: Rates the overall material and finish of the house
        1	Very Poor
 	
 OverallCond: Rates the overall condition of the house
+общее состояние дома (кодирование значений не требуется)
 
        10	Very Excellent
        9	Excellent
@@ -291,51 +321,118 @@ OverallCond: Rates the overall condition of the house
        1	Very Poor
 		
 YearBuilt: Original construction date
+год постройки
 
 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+год реконструкции (если не было, то совпадает с годом постройки)
 
 RoofStyle: Type of roof
+тип кровли
+https://www.decoraid.com/blog/roof-types
 
        Flat	Flat
+       плоская
+
        Gable	Gable
+       двухскатная
+
        Gambrel	Gabrel (Barn)
+       двухскатная ломаная
+
        Hip	Hip
+       вальмовая (четырехскатная)
+       
        Mansard	Mansard
+       мансардная
+
        Shed	Shed
+       односкатная
 		
 RoofMatl: Roof material
+материал кровли
+https://www.thespruce.com/basic-types-and-cost-of-roofing-materials-1822016
+https://www.customshingles.com/wood-shingles-vs-wood-shakes
 
        ClyTile	Clay or Tile
+       натуральная черепица 
+
        CompShg	Standard (Composite) Shingle
+       искусственная черепица
+
        Membran	Membrane
+       мембрана (неопрен, ПВХ, ...)
+
        Metal	Metal
+       металл 
+
        Roll	Roll
+       рулонные материалы (рубероид и его варианты)
+
        Tar&Grv	Gravel & Tar
+       мягкая кровля (битумная черепица)
+
        WdShake	Wood Shakes
+       деревянные доски
+
        WdShngl	Wood Shingles
+       деревянная черепица
 		
 Exterior1st: Exterior covering on house
+внешняя отделка
 
-       AsbShng	Asbestos Shingles
+       AsbShng	Asbestos Shingles     
+       шифер
+
        AsphShn	Asphalt Shingles
+       битумные плиты
+
        BrkComm	Brick Common
+       кирпич рядовой
+
        BrkFace	Brick Face
+       кирпич облицовочный
+
        CBlock	Cinder Block
+       шлакоблок
+
        CemntBd	Cement Board
+       бетонные плиты
+
        HdBoard	Hard Board
+       плиты ХДФ
+
        ImStucc	Imitation Stucco
+       декоративная штукатурка (возможно - мокрый фасад)
+
        MetalSd	Metal Siding
+       металлический сайдинг
+
        Other	Other
+       прочие
+
        Plywood	Plywood
+       фанера
+
        PreCast	PreCast	
+       сборный
+
        Stone	Stone
+       каменный
+
        Stucco	Stucco
+       штукатурка
+
        VinylSd	Vinyl Siding
+       сайдинг ПВХ
+
        Wd Sdng	Wood Siding
+       деревянный сайдинг
+
        WdShing	Wood Shingles
+       деревянные панели
 	
 Exterior2nd: Exterior covering on house (if more than one material)
-
+аналогично Exterior1st
        AsbShng	Asbestos Shingles
        AsphShn	Asphalt Shingles
        BrkComm	Brick Common
