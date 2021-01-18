@@ -1,6 +1,5 @@
 MSSubClass: Identifies the type of dwelling involved in the sale.	
-Определяет тип жилья, участвующего в продаже
-
+Тип объекта недвижимости
         20	1-STORY 1946 & NEWER ALL STYLES
               одноэтажные, постройки 1946 и новее
 
@@ -55,8 +54,7 @@ MSZoning: Identifies the general zoning classification of the sale.
 Тип зоны, в которой расположен объект недвижимости
 Описания зон
 https://library.municode.com/ks/clearwater/codes/code_of_ordinances
-https://www.harrisburgnc.org/272/Zoning-101
-		
+https://www.harrisburgnc.org/272/Zoning-101		
        A	Agriculture
        склады, хоз постройки
 
@@ -88,8 +86,7 @@ LotArea: Lot size in square feet
 Площадь
 
 Street: Type of road access to property
-Покрытие дороги
-
+Покрытие дороги к объекту
        Grvl	Gravel	
        грунтовка 
 
@@ -97,7 +94,7 @@ Street: Type of road access to property
        с твердым покрытием
        	
 Alley: Type of alley access to property
-Покрытие тротуара
+Покрытие тротуара к объекту
        Grvl	Gravel
        грунтовка 
 
@@ -122,7 +119,7 @@ LotShape: General shape of property
        неправильная
        
 LandContour: Flatness of the property
-Характеристика уровня участка (по отношению к окружающим участкам)
+Характеристика уровня участка (по отношению к прилегающим участкам)
        Lvl	Near Flat/Level	
        плоский
        
@@ -179,7 +176,6 @@ LandSlope: Slope of property
 	
 Neighborhood: Physical locations within Ames city limits
 Район города Ames 
-
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
        BrDale	Briardale
@@ -210,7 +206,6 @@ Condition1: Proximity to various conditions
 Близость к различным объектам
 иерархия дорог в США https://en.wikipedia.org/wiki/Hierarchy_of_roads
 про названия дорог https://en.wikipedia.org/wiki/Frontage_road
-
        Artery	Adjacent to arterial street
        примыкает к магистрали
 
@@ -240,7 +235,6 @@ Condition1: Proximity to various conditions
 	
 Condition2: Proximity to various conditions (if more than one is present)
 Аналогично Condition1
-
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
        Norm	Normal	
@@ -255,7 +249,6 @@ BldgType: Type of dwelling
 Тип (вариант) проживания
 https://en.wikipedia.org/wiki/Single-family_detached_home
 https://www.redfin.com/resources/difference-between-building-types
-
        1Fam	Single-family Detached	
        отдельно стоящий дом для одной семьи
 
@@ -273,7 +266,6 @@ https://www.redfin.com/resources/difference-between-building-types
 	
 HouseStyle: Style of dwelling
 Тип дома и этап строительства
-
        1Story	One story
        1-этажный
 
@@ -300,7 +292,6 @@ HouseStyle: Style of dwelling
 	
 OverallQual: Rates the overall material and finish of the house
 Общая оценка используемых строительных и отделочных материалов 
-
        10	Very Excellent
        9	Excellent
        8	Very Good
@@ -314,7 +305,6 @@ OverallQual: Rates the overall material and finish of the house
 	
 OverallCond: Rates the overall condition of the house
 Общее состояние дома 
-
        10	Very Excellent
        9	Excellent
        8	Very Good
@@ -335,7 +325,6 @@ YearRemodAdd: Remodel date (same as construction date if no remodeling or additi
 RoofStyle: Type of roof
 Конструкция кровли
 https://www.decoraid.com/blog/roof-types
-
        Flat	Flat
        плоская
 
@@ -358,7 +347,6 @@ RoofMatl: Roof material
 Материал кровли
 https://www.thespruce.com/basic-types-and-cost-of-roofing-materials-1822016
 https://www.customshingles.com/wood-shingles-vs-wood-shakes
-
        ClyTile	Clay or Tile
        натуральная черепица 
 
@@ -385,7 +373,6 @@ https://www.customshingles.com/wood-shingles-vs-wood-shakes
 		
 Exterior1st: Exterior covering on house
 Внешняя отделка
-
        AsbShng	Asbestos Shingles     
        шифер
 
@@ -459,7 +446,6 @@ Exterior2nd: Exterior covering on house (if more than one material)
 	
 MasVnrType: Masonry veneer type
 Тип каменной кладки
-
        BrkCmn	Brick Common
        кирпич рядовой
 
@@ -480,7 +466,6 @@ MasVnrArea: Masonry veneer area in square feet
 
 ExterQual: Evaluates the quality of the material on the exterior 
 Оценка качества материалов внешней отделки
-
        Ex	Excellent
        Gd	Good
        TA	Average/Typical
@@ -488,8 +473,7 @@ ExterQual: Evaluates the quality of the material on the exterior
        Po	Poor
 		
 ExterCond: Evaluates the present condition of the material on the exterior
-Оценка состояни материалов внешней отделки
-		
+Оценка состояни материалов внешней отделки		
        Ex	Excellent
        Gd	Good
        TA	Average/Typical
@@ -498,7 +482,6 @@ ExterCond: Evaluates the present condition of the material on the exterior
 		
 Foundation: Type of foundation
 Тип фундамента
-
        BrkTil	Brick & Tile
        кирпич 
 
@@ -519,7 +502,6 @@ Foundation: Type of foundation
 
 BsmtQual: Evaluates the height of the basement
 Оценка высоты цокольного этажа (речь о высоте потолков)
-
        Ex	Excellent (100+ inches)	
        Gd	Good (90-99 inches)
        TA	Typical (80-89 inches)
@@ -529,7 +511,6 @@ BsmtQual: Evaluates the height of the basement
 		
 BsmtCond: Evaluates the general condition of the basement
 Оценка состояния цокольного этажа
-
        Ex	Excellent
        Gd	Good
        TA	Typical - slight dampness allowed
@@ -539,7 +520,6 @@ BsmtCond: Evaluates the general condition of the basement
 	
 BsmtExposure: Refers to walkout or garden level walls
 Примыкание фундамента к подпорным стенам сада
-
        Gd	Good Exposure
        значительное примыкание
 
@@ -557,7 +537,6 @@ BsmtExposure: Refers to walkout or garden level walls
 	
 BsmtFinType1: Rating of basement finished area
 Степень готовности отделки цокольного этажа
-
        GLQ	Good Living Quarters
        жилое помещение с хорошей отделкой
 
@@ -584,7 +563,6 @@ BsmtFinSF1: Type 1 finished square feet
 
 BsmtFinType2: Rating of basement finished area (if multiple types)
 Степень готовности отделки цокольного этажа
-
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
        BLQ	Below Average Living Quarters	
@@ -604,7 +582,6 @@ TotalBsmtSF: Total square feet of basement area
 
 Heating: Type of heating
 Тип системы отопления
-
        Floor	Floor Furnace
        печь, встроенная в пол
        
@@ -640,7 +617,6 @@ CentralAir: Central air conditioning
 Electrical: Electrical system
 Тип подключения к электросети и тип проводки в доме
 https://www.thespruce.com/what-does-romex-or-nm-mean-1821530
-
        SBrkr	Standard Circuit Breakers & Romex
        стандартная система защиты и проводка по стандарту Romex
 
@@ -699,7 +675,6 @@ TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
 
 Functional: Home functionality (Assume typical unless deductions are warranted)
 Функциональность дома
-
        Typ	Typical Functionality
        типовая
 
@@ -729,7 +704,6 @@ Fireplaces: Number of fireplaces
 
 FireplaceQu: Fireplace quality
 Качество каминов
-
        Ex	Excellent - Exceptional Masonry Fireplace
        Gd	Good - Masonry Fireplace in main level
        TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
@@ -739,7 +713,6 @@ FireplaceQu: Fireplace quality
 		
 GarageType: Garage location
 Расположение гаража
-
        2Types	More than one type of garage
        более двух типов гаражей
 
@@ -766,7 +739,6 @@ GarageYrBlt: Year garage was built
 		
 GarageFinish: Interior finish of the garage
 Внутренняя отделка гаража 
-
        Fin	Finished
        завершена
 
@@ -787,7 +759,6 @@ GarageArea: Size of garage in square feet
 
 GarageQual: Garage quality
 Качество гаража
-
        Ex	Excellent
        Gd	Good
        TA	Typical/Average
@@ -797,7 +768,6 @@ GarageQual: Garage quality
 		
 GarageCond: Garage condition
 Состояние гаража
-
        Ex	Excellent
        Gd	Good
        TA	Typical/Average
@@ -807,7 +777,6 @@ GarageCond: Garage condition
 		
 PavedDrive: Paved driveway
 Подъездной путь
-
        Y	Paved 
        асфальтированный
 
@@ -837,7 +806,6 @@ PoolArea: Pool area in square feet
 
 PoolQC: Pool quality
 Качество бассейна
-
        Ex	Excellent
        Gd	Good
        TA	Average/Typical
@@ -846,7 +814,6 @@ PoolQC: Pool quality
 		
 Fence: Fence quality
 Качество забора
-
        GdPrv	Good Privacy
        обеспечивает хорошую приватность (конфиденциальность)
 
@@ -864,7 +831,6 @@ Fence: Fence quality
 	
 MiscFeature: Miscellaneous feature not covered in other categories
 Дополнительные удобства, не представленные в других категориях
-
        Elev	Elevator
        лифт
 
@@ -896,7 +862,6 @@ SaleType: Type of sale
 Тип сделки
 https://www.investopedia.com/terms/w/warranty-deed.asp
 https://www.investopedia.com/terms/d/down_payment.asp
-
        WD 	Warranty Deed - Conventional
        обычные гарантийные обязательства
 
@@ -929,7 +894,6 @@ https://www.investopedia.com/terms/d/down_payment.asp
 		
 SaleCondition: Condition of sale
 Условия продажи
-
        Normal	Normal Sale
        обычная продажа
 
