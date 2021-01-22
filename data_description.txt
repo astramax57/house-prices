@@ -175,32 +175,111 @@ LandSlope: Slope of property
        серьезный уклон
 	
 Neighborhood: Physical locations within Ames city limits
-Район города Ames 
+Районы города Ames 
+https://www.cityofames.org/government/departments-divisions-a-h/city-assessor/maps
+       
        Blmngtn	Bloomington Heights
+       ХОРОШИЙ РАЙОН
+       зона RL/RM, рядом зона коммерческой застройки (торговые центры и офисы)
+       рядом озеро и парк
+       
        Blueste	Bluestem
+       ХОРОШЕГО КАЧЕСТВА
+       зона RM, район на склоне, домов не много (всего 2 объекта в train, 8 в test)
+       плотная застройка, уединенное место, тупик
+
        BrDale	Briardale
+       ХОРОШЕГО КАЧЕСТВА
+       зона RM, торговые центры
+       всего 16 объекта в train, 14 в test
+       
        BrkSide	Brookside
+       ХОРОШИЙ РАЙОН
+       зона RL 
+       участки спускаются к реке, дома фактически расположены в парке
+
        ClearCr	Clear Creek
+       БЮДЖЕТНОЕ ЖИЛЬЕ, НОВЫЙ РАЙОН
+       зона RL , ориентирован на семьи с маленькими детьми
+       рядом парк, гольф клуб, начальная школа
+       удален от центра
+
        CollgCr	College Creek
+       БЮДЖЕТНОЕ ЖИЛЬЕ, НОВЫЙ РАЙОН
+       зона RL , ориентирован на семьи с маленькими детьми
+       рядом парк, гольф клуб, начальная школа
+       окраина города
+       
        Crawfor	Crawford
        Edwards	Edwards
        Gilbert	Gilbert
        IDOTRR	Iowa DOT and Rail Road
        MeadowV	Meadow Village
        Mitchel	Mitchell
+
+
        Names	North Ames
+       ХОРОШИЙ РАЙОН
+       зона RL/RM, рядом зона коммерческой застройки (торговые центры и офисы)
+       рядом река и парки
+
        NoRidge	Northridge
+       ОЧЕНЬ ХОРОШИЙ НОВЫЙ РАЙОН
+       зона RL 
+       рядом озеро и парк, гольф клуб
+
        NPkVill	Northpark Villa
+       ОЧЕНЬ ХОРОШИЙ НОВЫЙ РАЙОН
+       зона RL 
+       рядом озеро и парк, гольф клуб
+       
        NridgHt	Northridge Heights
+       ХОРОШИЙ РАЙОН
+       зона RL/RM, 
+       рядом озеро и парк
+
        NWAmes	Northwest Ames
+       ХОРОШИЙ РАЙОН
+       зона RL/RM, 
+       рядом река и парк, торговый центр
+
        OldTown	Old Town
+       ПЛОХОЙ РАЙОН
+       зона RM/RH, на границе с промышленной зоной
+       рядом очистные сооружения, кладбище
+
        SWISU	South & West of Iowa State University
+       ХОРОШИЙ РАЙОН
+
        Sawyer	Sawyer
+       ХОРОШИЙ НОВЫЙ РАЙОН
+       зона RL , ориентирован на семьи с маленькими детьми
+       рядом парк, гольф клуб, начальная школа
+
        SawyerW	Sawyer West
+       БЮДЖЕТНОЕ ЖИЛЬЕ, НОВЫЙ РАЙОН
+       зона RL , ориентирован на семьи с маленькими детьми
+       рядом парк, гольф клуб, начальная школа
+
        Somerst	Somerset
+       СРЕДНЕГО КАЧЕСТВА
+       зона RH
+       плотная застройка
+
        StoneBr	Stone Brook
+       ХОРОШИЙ НОВЫЙ РАЙОН
+       зона RM
+       рядом парк, озеро
+
        Timber	Timberland
+       СРЕДНЕГО КАЧЕСТВА
+       зона RL, таунхаусы
+       рядом аэропорт
+
        Veenker	Veenker
+       ХОРОШИЙ РАЙОН
+       зона RL, дома с теннисными кортами и бассейнами
+       рядом парк, гольф клуб
 			
 Condition1: Proximity to various conditions
 Близость к различным объектам
