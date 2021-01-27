@@ -1,4 +1,4 @@
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+MSSubClass: Identifies the type of dwelling involved in the sale.	 
 Тип объекта недвижимости
         20	1-STORY 1946 & NEWER ALL STYLES
               одноэтажные, постройки 1946 и новее
